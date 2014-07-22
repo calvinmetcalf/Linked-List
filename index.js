@@ -52,7 +52,11 @@ lp.clear = function () {
   this.length = 0;
   this.sideTable = {};
 };
-lp.stringify = function () {};
+lp.stringify = function (item) {
+  if (typeof item === 'string') {
+    return item;
+  }
+};
 lp.compare = function (a, b) {
   return a === b;
 };
