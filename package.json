@@ -1,0 +1,23 @@
+{
+  "name": "calvin-linked-list",
+  "version": "0.0.0",
+  "description": "a linked list, for learning purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "prova -p test.js | tspec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/calvinmetcalf/Linked-List.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinmetcalf/Linked-List/issues"
+  },
+  "homepage": "https://github.com/calvinmetcalf/Linked-List",
+  "devDependencies": {
+    "tap-spec": "^0.2.0",
+    "prova": "^1.14.0"
+  }
+}
